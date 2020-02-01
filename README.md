@@ -111,6 +111,8 @@ Requirements:
 * `scipy`
 * All dependencies needed for the [RISC-V toolchain](https://www.github.com/riscv/riscv-tools)
 
+#### <a name="setup"></a> Before you start, plz note that riscv-tools is kinda deprecated in rocket-chips. Considering install the toolchain with Chipyard repo. 
+
 1) <a name="clone-the-rocket-chip-repo"></a> Clone the Rocket Chip Repository
 ----------------------------------------
 This is not, at present, a standalone repository and must be cloned inside of an existing Rocket Chip clone. The following will grab a supported version of rocket-chip and clone DANA inside of it:
